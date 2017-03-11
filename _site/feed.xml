@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nSchroader</title>
+    <description></description>
+    <link>http://localhost:3001/</link>
+    <atom:link href="http://localhost:3001/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 12 Jul 2016 23:20:50 -0600</pubDate>
+    <lastBuildDate>Tue, 12 Jul 2016 23:20:50 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>APT Reputation</title>
+        <description>&lt;h3 id=&quot;reputation-is-the-new-currency&quot;&gt;Reputation is the new currency&lt;/h3&gt;
+&lt;p&gt;APT Reputation is a online reputation monitoring and management service specifically made for the property management community.&lt;/p&gt;
+
+&lt;h4 id=&quot;software-reborn&quot;&gt;Software Reborn&lt;/h4&gt;
+&lt;p&gt;In early March 2016, I was chatting with a friend over a project he had commissioned overseas. After a quick look through the 
+code I could tell he was in major trouble. The product was a maze of different frameworks mashed on top of one another while
+completely ignoring some of the more critical security features found in each one. For teh sake of the company, it had to be remade.&lt;/p&gt;
+
+&lt;p&gt;In a blur of caffeine and late night coding we remade the site into a stronger product no longer reliant on 3rd party services. 
+With the help of our good friends at Western Reporting we made our debut in the early summer of 2016 at the 
+&lt;a href=&quot;http://educonf.naahq.org/&quot;&gt;National Apartment Association Conference&lt;/a&gt; in San Fransisco.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 22 Mar 2016 01:27:47 -0600</pubDate>
+        <link>http://localhost:3001/example/website/2016/03/22/apt-reputation.html</link>
+        <guid isPermaLink="true">http://localhost:3001/example/website/2016/03/22/apt-reputation.html</guid>
+        
+        
+        <category>example</category>
+        
+        <category>website</category>
+        
+      </item>
+    
+      <item>
+        <title>Vendor Verify</title>
+        <description>&lt;p&gt;Vendor Verify is a online compliance utility. The company helps vendors working for property management companies to upload 
+and maintain their compliance documentation.&lt;/p&gt;
+
+&lt;p&gt;In mid 2015 Vendor Verify was in some serious trouble. The latest version of their custom software was littered with bad 
+and missing data, incomplete sections and broken functionally. After working closely with their staff to get the site back 
+in a a workable condition we started looking towards the future of the company and it’s software.&lt;/p&gt;
+
+&lt;p&gt;By working closely with their staff I began to really understand the day to day needs of the every user of the site. I’m quite proud of the result.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Feb 2016 00:27:47 -0700</pubDate>
+        <link>http://localhost:3001/example/website/2016/02/22/vendor-verify.html</link>
+        <guid isPermaLink="true">http://localhost:3001/example/website/2016/02/22/vendor-verify.html</guid>
+        
+        
+        <category>example</category>
+        
+        <category>website</category>
+        
+      </item>
+    
+      <item>
+        <title>Akirix.com</title>
+        <description>&lt;h3 id=&quot;changing-the-way-business-is-paid-for&quot;&gt;Changing the way business is paid for&lt;/h3&gt;
+
+&lt;p&gt;Akirix, is a secure online payment platform specialized for the VOIP industry.&lt;/p&gt;
+
+&lt;h4 id=&quot;in-small-business-everyone-takes-out-the-garbage&quot;&gt;In Small Business, everyone takes out the garbage&lt;/h4&gt;
+
+&lt;p&gt;In the summer of 2013, while still in my last year of college, I decided to quite my job working as a computer technician.
+Shortly after being hired I became disenchanted with the IT work that I had been steadily gaining experience in while in college. 
+What I thought was a better opportunity to work with high end server installations, I quickly found, was more along the line
+of a server assembly farm. So I quit.&lt;/p&gt;
+
+&lt;p&gt;Within the week I was approached by my good friend and serial co-worker Tyler Gleave about a new startup being set down in Ogden.
+While having very little experience under my belt at this point I jumped over the opportunity. After a intense set of finals 
+mixed in with a long interview process. I was hired at the exciting startup.&lt;/p&gt;
+
+&lt;p&gt;My first project would grow to become the centerpiece of my responsibility within the rapidly growing organization. Akirix’s 
+primary goal was to provide its clients was a safe trading environment, and on-boarding was its the first line of defense. 
+Over the course of my tenure at Akirix, I turned a small confusing part of the site. Into a intuitive user experience oriented 
+pillar of the company.&lt;/p&gt;
+
+&lt;h4 id=&quot;developing-the-business&quot;&gt;Developing the Business&lt;/h4&gt;
+
+&lt;p&gt;After some incredible initial success, major changes in the market forced Akirix into the doldrums. Revenue began to drop
+and internal strife to it’s toll on the company. While in our greatest time of need Akirix found someone to guide the development 
+of the organizations and it members. Randy Watt.&lt;/p&gt;
+
+&lt;p&gt;Randy was an excellent and patient teacher. From business development, and market analysis to force prevention and 
+strategic planning I soaked up every lesson.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 22 Feb 2016 00:27:47 -0700</pubDate>
+        <link>http://localhost:3001/example/website/2016/02/22/akirix.html</link>
+        <guid isPermaLink="true">http://localhost:3001/example/website/2016/02/22/akirix.html</guid>
+        
+        
+        <category>example</category>
+        
+        <category>website</category>
+        
+      </item>
+    
+      <item>
+        <title>Rent Relief</title>
+        <description>&lt;h3 id=&quot;a-better-solution-for-bad-debt&quot;&gt;A better solution for bad debt&lt;/h3&gt;
+&lt;p&gt;Rent Relief is, or at least aims to be, a better way for residents to avoid and deal with bad debt. The company was formed 
+by myself and 4 other partners all with experience in the property management industry. We had the idea of working on a way to
+allow residents to avoid bad debt by working with lenders to provide fair loans to avoid eviction, while also offering a better 
+way for residents who would face eviction to pay their outstanding debt.&lt;/p&gt;
+
+&lt;h4 id=&quot;try-fail-try-again&quot;&gt;Try, Fail, Try Again&lt;/h4&gt;
+&lt;p&gt;After a series of complications with vendor relationships and a demanding development schedule Rent Relief has been sitting on 
+the bench awaiting completion. But throughout the experience I gained a close familiarity with the property management industry
+and a few close friends along the way.&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 22 Feb 2015 00:27:47 -0700</pubDate>
+        <link>http://localhost:3001/example/website/2015/02/22/rent-relief.html</link>
+        <guid isPermaLink="true">http://localhost:3001/example/website/2015/02/22/rent-relief.html</guid>
+        
+        
+        <category>example</category>
+        
+        <category>website</category>
+        
+      </item>
+    
+  </channel>
+</rss>

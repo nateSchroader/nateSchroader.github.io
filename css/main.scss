@@ -1,0 +1,50 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+$off-white: #f4f4f4;
+$white: #ffffff;
+$light-grey: #cdcdcd;
+$grey: #454545;
+$med-grey: #222222;
+$dark-grey: #1c1c1c;
+$dark-blue-grey: #22313F;
+$button-animation-time: .3s;
+
+$blue: #34aadc;
+$light-blue: lighten( $blue, 10% );
+$med-blue: darken( $blue, 10% );
+$dark-blue: darken( $blue, 20% );
+
+$orange: #ff9500;
+
+// Bootstrap Overrides
+$navbar-height: 90px;
+$navbar-padding-vertical: 10px;
+$navbar-padding-horizontal: 0;
+$navbar-default-bg: $white;
+
+//$navbar-default-color: #777;
+//$navbar-default-bg: #ffffff;
+//$navbar-default-border: darken( $navbar-default-bg, 6.5% );
+//
+//$btn-default-color: #222222;
+//$btn-default-bg: #ffffff;
+//$btn-default-border: rgba(68, 68, 68, 0.18);
+//
+//$btn-success-color: #ffffff;
+//$btn-success-bg: $blue;
+//$btn-success-border: $med-blue;
+//$btn-success-shadow: $med-blue;
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+"bootstrap",
+"base",
+"general",
+"footer",
+"header",
+"default",
+"page",
+"syntax-highlighting";

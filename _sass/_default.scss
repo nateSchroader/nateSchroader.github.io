@@ -1,0 +1,70 @@
+$minimized-nav-height: 60px;
+$nav-transition-time: 0.6s;
+
+.default {
+    padding-top: 90px;
+    background-color: #f4f4f4;
+    height: 100vh;
+
+    nav#primary-nav {
+        background: #333;
+        border-bottom-color: transparent;
+        -webkit-transition: background-color $nav-transition-time, min-height $nav-transition-time, -webkit-transform $nav-transition-time;
+        transition: background-color $nav-transition-time, min-height $nav-transition-time, transform $nav-transition-time;
+
+        .navbar-brand, ul.navbar-nav li {
+            -webkit-transition: height $nav-transition-time, -webkit-transform $nav-transition-time;
+            transition: height $nav-transition-time, transform $nav-transition-time;
+        }
+
+        a {
+            color: $white;
+
+            &:hover {
+                color: $light-blue;
+            }
+        }
+
+        &.minimized {
+            min-height: $minimized-nav-height;
+            background-color: $navbar-default-bg;
+            border-bottom-color: $navbar-default-border;
+
+            a {
+                color: $blue;
+
+                &:hover {
+                    color: $light-blue;
+                }
+            }
+
+            .navbar-brand {
+                height: $minimized-nav-height;
+
+                h5 {
+                    display: none;
+                }
+
+                img {
+                    height: 100%;
+                    padding-bottom: 0;
+                }
+            }
+
+            ul.navbar-nav {
+                li {
+                    height: $minimized-nav-height;
+                }
+                a {
+                    line-height: $minimized-nav-height;
+                }
+            }
+        }
+    }
+
+    .page-content {
+        background-color: $off-white;
+        padding-top: 40px;
+        min-height: calc( 100vh - 135px);
+    }
+}

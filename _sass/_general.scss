@@ -1,0 +1,234 @@
+/**
+* Helper CSS and colors
+*/
+
+// mixin to iterate over colors and create CSS class for each one
+//@colors: white, off-white, light-grey, grey, darker-grey, dark-grey, orange, light-blue, blue, dark-blue, green;
+//
+//.make-color-classes( @i: length( @colors ) ) when (@i > 0) {
+//    .make-color-classes(@i - 1);
+//    @color: extract(@colors, @i);
+//
+//    .text-@{color} {
+//    color: @@color;
+//}
+//    .background-@{color} {
+//    background-color: @@color;
+//}
+//}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-bolder {
+    font-weight: bolder;
+}
+
+.clear {
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: right;
+}
+
+.float-none {
+    float: none;
+}
+
+.height-half {
+    height: 50%;
+}
+
+.height-full {
+    height: 100%;
+}
+
+.width-half {
+    width: 50%;
+}
+
+.width-full {
+    width: 100%;
+}
+
+.no-margin {
+    margin: 0;
+}
+
+.margin-sm-bottom {
+    margin-bottom: 0.38em;
+}
+
+.margin-sm-top {
+    margin-top: 0.38em;
+}
+
+.margin-sm-right {
+    margin-right: 0.38em;
+}
+
+.margin-sm-left {
+    margin-left: 0.38em;
+}
+
+.margin-md-bottom {
+    margin-bottom: 0.62em;
+}
+
+.margin-md-top {
+    margin-top: 0.62em;
+}
+
+.margin-md-right {
+    margin-right: 0.62em;
+}
+
+.margin-md-left {
+    margin-left: 0.62em;
+}
+
+.display-table {
+    display: table;
+    width: 100%;
+}
+
+.display-block {
+    display: block;
+}
+
+.table-cell {
+    float: none;
+    display: table-cell;
+
+    &.col-xs-1, &.col-xs-2, &.col-xs-3, &.col-xs-4, &.col-xs-5, &.col-xs-6,
+    &.col-xs-7, &.col-xs-8, &.col-xs-9, &.col-xs-10, &.col-xs-11, &.col-xs-12 {
+        padding-left: inherit;
+        padding-right: inherit;
+    }
+}
+
+.valign-top {
+    vertical-align: top !important;
+}
+
+.valign-middle {
+    vertical-align: middle !important;
+}
+
+.valign-bottom {
+    vertical-align: bottom !important;
+}
+
+.col-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.viewport {
+    height: 100vh;
+}
+
+.scroll-y {
+    overflow-y: auto;
+}
+
+th.date-col {
+    text-align: center;
+    width: 120px;
+}
+
+td.date-col {
+    font-weight: bold;
+    text-align: center;
+    width: 120px;
+}
+
+.table-unstyled {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-unstyled td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: none;
+}
+
+.truncate {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.help-text {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 15px;
+}
+
+.help-text:before {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f05a";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #5bc0de;
+    font-size: 22px;
+}
+
+hr.underline {
+    margin-top: 0.38em;
+}
+
+section {
+    background-color: $white;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+
+    &:before, &:after {
+        background-color: $off-white;
+        content: '';
+        height: 2em;
+    }
+}
+
+header.blue {
+    background-color: $blue;
+    color: $white;
+    padding-top: 1.38em;
+    padding-bottom: 1.38em;
+}

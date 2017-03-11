@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Github",
+        "icon-class": "fa-github",
+        "link": "github.com/nateSchroader"
+    },
+    {
+        "name": "LinkedIn",
+        "icon-class": "fa-linkedin",
+        "link": "www.linkedin.com/in/nschroader"
+    },
+    {
+        "name": "Medium",
+        "icon-class": "fa-medium",
+        "link": "medium.com/@nschroader"
+    }
+]

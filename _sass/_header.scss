@@ -1,0 +1,31 @@
+#primary-nav {
+    margin-bottom: 0;
+
+    .navbar-brand {
+        text-align: center;
+
+        img {
+            height: calc(100% - 15px);
+            padding-bottom: 0.38em;
+        }
+    }
+
+    ul.navbar-nav {
+        li {
+            height: 90px;
+        }
+
+        a {
+            font-size: 16px;
+            line-height: 90px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        &.social {
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+}

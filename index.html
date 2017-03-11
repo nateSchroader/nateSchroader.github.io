@@ -1,0 +1,94 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+
+<section id="cover">
+    <div class="container">
+        <h1>Nate Schroader</h1>
+
+        <div class="row">
+            <div class="col-sm-7 col-md-5 col-centered text-center">
+                <div class="subjects form-group">
+                    <h4>Designer</h4>
+                    <h4>Developer</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <header>
+            <h1>Portfolio</h1>
+            <h4>Check out some of my most recent work</h4>
+        </header>
+
+        <div class="row grid">
+            {% for post in site.categories.example %}
+            <div class="col-sm-6 col-md-4">
+                <div class="example">
+                    <a class="wrapper-link {{ post.title | slugify }}" href="{{ post.url }}" style="background-image: url({{post.preview-img}});">
+                        <div class="title">
+                            <h2>{{ post.title }}</h2>
+                            {% if post.client %}
+                            <h5>{{ post.client }}</h5>
+                            {% endif %}
+                        </div>
+                    </a>
+                    <a class="view-site" href="{{ post.external-url }}" target="_blank">View Site</a>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <header>
+            <h1>Contact</h1>
+            <h4>Drop me a line</h4>
+        </header>
+
+        <div class="row">
+            <div class="col-sm-5">
+                <form id="contact-form"
+                      action="https://docs.google.com/forms/d/e/1FAIpQLSdYdPKLb9zcw4xr1Z2djvs0Yb4MoDOhstRh8846t_Es5OmOmw/formResponse"
+                      method="POST"
+                    >
+                    <div class="row">
+                        <div class="col-sm-6 form-group has-feedback">
+                            <label class="control-label">Email</label>
+                            <input class="form-control" type="email" name="entry.1160971967" required>
+                        </div>
+                        <div class="col-sm-6 form-group has-feedback">
+                            <label class="control-label">Name</label>
+                            <input class="form-control" name="entry.1914554672" required>
+                        </div>
+                    </div>
+                    <div class="form-group has-feedback">
+                        <label class="control-label">Message</label>
+                        <textarea class="form-control" name="entry.1853799367" required></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <button class="btn btn-success btn-block" type="button">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<iframe
+    id="contact-iframe"
+    src="https://docs.google.com/forms/d/e/1FAIpQLSdYdPKLb9zcw4xr1Z2djvs0Yb4MoDOhstRh8846t_Es5OmOmw/viewform?embedded=true"
+    width="1" height="1" frameborder="0" marginheight="0" marginwidth="0">Loading...
+</iframe>
+
+<script type="application/javascript" src="/js/contact.js"></script>

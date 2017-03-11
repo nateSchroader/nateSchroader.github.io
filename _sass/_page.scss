@@ -1,0 +1,202 @@
+.home {
+    nav#primary-nav {
+        background: rgba(0, 0, 0, 0.38);
+    }
+
+    #cover {
+        background-image: url(/img/desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0;
+        margin-top: -130px;
+        margin-bottom: 0;
+        height: calc(62vh + 130px);
+        padding-top: 90px;
+
+        h1 {
+            text-align: center;
+            color: $off-white;
+            text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.62);
+            font-size: 62px;
+            margin-top: 21vh;
+            margin-bottom: 15px;
+            position: relative;
+            border-bottom: solid 3px #34aadc;
+            padding-bottom: 15px;
+            max-width: 62%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .subjects {
+            //border-bottom: solid 3px $blue;
+            display: table;
+            width: 100%;
+
+            h4 {
+                color: $orange;
+                display: table-cell;
+                text-align: center;
+                font-size: 28px;
+                font-weight: normal;
+                letter-spacing: 1.62px;
+                text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.62);
+            }
+        }
+    }
+
+    #portfolio {
+        .grid {
+            padding-top: 15px;
+
+            .example {
+                background-color: $off-white;
+                height: 240px;
+                position: relative;
+                margin-bottom: 15px;
+
+                & > a.wrapper-link {
+                    display: block;
+                    height: 100%;
+                }
+
+                .view-site {
+                    position: absolute;
+                    right: 15px;
+                    top: 15px;
+                    z-index: 10;
+                }
+
+                .title {
+                    position: absolute;
+                    top: 0;
+                    width: 100%;
+                    background-color: rgba(0, 0, 0, 0.38);
+                    left: 0;
+                    color: white;
+                    padding: 0.38em 0.62em;
+                    z-index: 2;
+
+                    h2 {
+
+                    }
+
+                    h5 {
+                        color: $off-white;
+                    }
+                }
+            }
+        }
+
+    }
+
+    #contact {
+        #contact-iframe {
+            z-index: -1;
+            position: absolute;
+        }
+    }
+}
+
+.about-me {
+    #intro {
+        img {
+            float: left;
+            padding-right: 1em;
+            height: 120px;
+        }
+    }
+
+    #experience, #education {
+        ul {
+            padding-left: 0;
+            list-style-type: none;
+
+            li {
+                text-indent: 5px;
+
+                &:before {
+                    content: "-";
+                    width: 24px;
+                    display: inline-block;
+                }
+            }
+        }
+    }
+
+    #skills {
+        .skill-list {
+            -webkit-column-count: 3; /* Chrome, Safari, Opera */
+            -moz-column-count: 3; /* Firefox */
+            column-count: 3;
+        }
+
+        dl {
+            margin-bottom: 1.38em;
+            height: 98px;
+        }
+
+        small {
+            color: $grey;
+        }
+    }
+
+    #experience {
+        .experience {
+            padding-bottom: 1.38em;
+
+            .display-table {
+                border-bottom: dotted $light-grey 2px;
+                padding-bottom: 0.38em;
+            }
+
+            .table-cell {
+                vertical-align: bottom;
+
+                h3 {
+                    padding-bottom: 2px;
+                }
+
+                h4 {
+                    color: $grey;
+                }
+
+            }
+
+            h5 {
+                color: $grey;
+            }
+        }
+    }
+
+    #education {
+        margin-bottom: 0;
+
+        .education {
+            padding-bottom: 1.38em;
+
+            .display-table {
+                border-bottom: dotted $light-grey 2px;
+                padding-bottom: 0.38em;
+            }
+
+            .table-cell {
+                vertical-align: bottom;
+
+                h3 {
+                    padding-bottom: 2px;
+                }
+
+                h4 {
+                    color: $grey;
+                }
+
+            }
+
+            h5 {
+                color: $grey;
+            }
+        }
+    }
+}
+

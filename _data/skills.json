@@ -1,0 +1,112 @@
+[
+    {
+        "heading": "Languages",
+        "skills": [
+            {
+                "name": "Javascript",
+                "examples": [
+                    "Node.js",
+                    "Ember.js",
+                    "jQuery",
+                    "Angular.js"
+                ]
+            },
+            {
+                "name": "PHP",
+                "examples": [
+                    "CakePHP"
+                ]
+            },
+            {
+                "name": "ASP.Net"
+            },
+            {
+                "name": "Java"
+            }
+        ]
+    },
+    {
+        "heading": "Data Management",
+        "skills": [
+            {
+                "name": "MySQL"
+            },
+            {
+                "name": "MongoDB"
+            },
+            {
+                "name": "Microsoft SQL Server"
+            }
+        ]
+    },
+    {
+        "heading": "Concepts and Frameworks",
+        "skills": [
+            {
+                "name": "Client Side MVC",
+                "examples": [
+                    "Ember.js", "Angular.js"
+                ]
+            },
+            {
+                "name": "Server Side Javascript",
+                "examples": [
+                    "Node.js"
+                ]
+            },
+            {
+                "name": "Server Side MVC",
+                "examples": [
+                    "CakePHP"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Professional Skills",
+        "skills": [
+            {
+                "name": "Small Business Development"
+            },
+            {
+                "name": "Strategic Planning"
+            }
+        ]
+    },
+    {
+        "heading": "Design Skills",
+        "skills": [
+            {
+                "name": "Business Personality and Style Design"
+            },
+            {
+                "name": "Logo Design",
+                "examples": [
+                    "Adobe Photoshop",
+                    "Corel Draw"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Misc. Skills",
+        "skills": [
+            {
+                "name": "Server Administration",
+                "examples": [
+                    "Microsoft Server",
+                    "Ubuntu",
+                    "CentOS"
+                ]
+            },
+            {
+                "name": "Web Server Administration",
+                "examples": [
+                    "NGINX",
+                    "cPanel",
+                    "WordPress"
+                ]
+            }
+        ]
+    }
+]

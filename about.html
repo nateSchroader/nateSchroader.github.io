@@ -1,0 +1,113 @@
+---
+layout: page
+title: About Me
+permalink: /about/
+---
+
+<header class="blue">
+    <div class="container">
+        <h1>{{ page.title }}</h1>
+    </div>
+</header>
+
+<section>
+    <div id="intro" class="container">
+        <img src="/img/me.jpg" alt="Nate Schroader" class="img-rounded">
+
+        <header>
+            <h3>Hi, I’m Nate Schroader, a Utah Valley based tech entrepreneur</h3>
+        </header>
+
+        <p>
+            I love simplifying business processes through technical innovation. I am a designer, a developer, and a
+            strategic
+            planner. You can find me at the crossroads
+            where business development meets technology.
+        </p>
+    </div>
+</section>
+
+<section id="skills" class="form-group">
+    <div class="container">
+        <header class="margin-md-top">
+            <h2>Skills</h2>
+        </header>
+
+        <div class="skill-list">
+            {% for skillCategory in site.data.skills %}
+            <dl>
+                <dt>{{ skillCategory.heading }}</dt>
+                {% for skill in skillCategory.skills %}
+                <dd>
+                    {{ skill.name }}
+                    {% if skill.examples %}
+                    -
+                    <small>
+                        {% for example in skill.examples %}
+                        {{example}}
+                        {% endfor %}
+                    </small>
+                    {% endif %}
+                </dd>
+                {% endfor %}
+            </dl>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<section id="experience" class="form-group">
+    <div class="container">
+        <header>
+            <h2>Experience</h2>
+        </header>
+
+        {% for experience in site.data.experience %}
+        <div class="experience">
+            <div class="display-table width-full form-group">
+                <div class="table-cell width-half">
+                    <h3>{{experience.business}}</h3>
+                    <h4>{{experience.position}}</h4>
+                </div>
+                <div class="table-cell text-right">
+                    <h5>{{experience.start_date}} - {{experience.end_date}}</h5>
+                </div>
+            </div>
+
+            <ul>
+                {% for responsibility in experience.responsibilities %}
+                <li>{{responsibility}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section id="education">
+    <div class="container">
+        <header>
+            <h2>Education</h2>
+        </header>
+
+        {% for education in site.data.education %}
+        <div class="education">
+            <div class="display-table width-full form-group">
+                <div class="table-cell width-half">
+                    <h3>{{education.place}}</h3>
+                    <h4>{{education.position}}</h4>
+                </div>
+                <div class="table-cell text-right">
+                    <h5>{{education.start_date}} - {{education.end_date}}</h5>
+                </div>
+            </div>
+
+            <ul>
+                {% for accolade in education.accolades %}
+                <li>{{accolade}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endfor %}
+    </div>
+</section>

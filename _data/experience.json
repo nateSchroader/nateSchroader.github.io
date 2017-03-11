@@ -1,0 +1,33 @@
+[
+    {
+        "business": "APT Reputation",
+        "position": "Co Founder, CTO",
+        "responsibilities": [
+            "Designed, built, and implemented a custom platform to monitor and report on apartment communities online reputation"
+        ],
+        "start_date": "03/01/2016",
+        "end_date": "Current"
+    },
+    {
+        "business": "Vendor Verify Cottonwood Residential",
+        "position": "nSchroader Web Development - Freelance Development",
+        "responsibilities": [
+            "Drastically improved the reliability of the site by rebuilding the project",
+            "Normalized data into a cohesive, searchable structure that allowed for the computation of business metrics",
+            "Worked closely with staff to understand and build to their needs and the needs of their growing industry"
+        ],
+        "start_date": "03/01/2016",
+        "end_date": "Current"
+    },
+    {
+        "business": "Akirix LLC",
+        "position": "Web Developer",
+        "responsibilities": [
+            "Developed and maintained a financial platform specializing in business to business escrow transactions",
+            "Took personal charge of the onboarding and compliance process to bring new clients onto the platform",
+            "Engaged in weekly training sessions with Cpt. Steven Randy Watt on business development, strategic planning, and force prevention"
+        ],
+        "start_date": "10/01/2012",
+        "end_date": "06/01/2015"
+    }
+]

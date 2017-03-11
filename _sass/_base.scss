@@ -1,0 +1,46 @@
+html, body {
+    -webkit-font-smoothing: antialiased;
+    background-color: $med-grey;
+    color: $dark-grey;
+    font-family: 'Open Sans', Helvetica Neue, Helvetica, Arial;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.62em;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+p {
+    //color: @grey;
+}
+
+a {
+    text-decoration: none;
+    //-webkit-transition: color $button-animation-time ease;
+    //-moz-transition: color $button-animation-time ease;
+    //-ms-transition: color $button-animation-time ease;
+    //-o-transition: color $button-animation-time ease;
+    //transition: color $button-animation-time ease;
+    //color: $blue;
+}
+
+a:hover, a:active {
+    color: $blue;
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 1em;
+
+    h1 {
+
+    }
+
+    h4 {
+        color: $grey;
+    }
+}

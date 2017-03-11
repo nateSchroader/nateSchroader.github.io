@@ -1,0 +1,40 @@
+<nav id="primary-nav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/img/logo.png">
+                <h5>Nate Schroader</h5>
+            </a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav social">
+                {% for social in site.data.social %}
+                <li>
+                    <a href="https://{{ social.link }}" target="_blank">
+                        <i class="fa {{ social.icon-class }}"></i>
+                    </a>
+                </li>
+                {% endfor %}
+            </ul>
+            <ul class="nav navbar-nav links navbar-right">
+                {% for page-details in site.html_pages %}
+                {% if page-details.permalink != page.permalink %}
+                <li>
+                    <a href="{{page-details.permalink}}" class="link-effect" data-hover="{{ page-details.title }}">
+                        <span>{{ page-details.title }}</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
+    </div>
+</nav>
