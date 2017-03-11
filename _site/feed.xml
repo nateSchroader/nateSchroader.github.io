@@ -3,11 +3,11 @@
   <channel>
     <title>nSchroader</title>
     <description></description>
-    <link>http://localhost:3001/</link>
-    <atom:link href="http://localhost:3001/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 12 Jul 2016 23:20:50 -0600</pubDate>
-    <lastBuildDate>Tue, 12 Jul 2016 23:20:50 -0600</lastBuildDate>
-    <generator>Jekyll v3.1.1</generator>
+    <link>http://localhost:3003/</link>
+    <atom:link href="http://localhost:3003/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 10 Mar 2017 18:18:33 -0700</pubDate>
+    <lastBuildDate>Fri, 10 Mar 2017 18:18:33 -0700</lastBuildDate>
+    <generator>Jekyll v3.3.1</generator>
     
       <item>
         <title>APT Reputation</title>
@@ -25,8 +25,8 @@ With the help of our good friends at Western Reporting we made our debut in the 
 
 </description>
         <pubDate>Tue, 22 Mar 2016 01:27:47 -0600</pubDate>
-        <link>http://localhost:3001/example/website/2016/03/22/apt-reputation.html</link>
-        <guid isPermaLink="true">http://localhost:3001/example/website/2016/03/22/apt-reputation.html</guid>
+        <link>http://localhost:3003/example/website/2016/03/22/apt-reputation.html</link>
+        <guid isPermaLink="true">http://localhost:3003/example/website/2016/03/22/apt-reputation.html</guid>
         
         
         <category>example</category>
@@ -47,8 +47,8 @@ in a a workable condition we started looking towards the future of the company a
 &lt;p&gt;By working closely with their staff I began to really understand the day to day needs of the every user of the site. I’m quite proud of the result.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Feb 2016 00:27:47 -0700</pubDate>
-        <link>http://localhost:3001/example/website/2016/02/22/vendor-verify.html</link>
-        <guid isPermaLink="true">http://localhost:3001/example/website/2016/02/22/vendor-verify.html</guid>
+        <link>http://localhost:3003/example/website/2016/02/22/vendor-verify.html</link>
+        <guid isPermaLink="true">http://localhost:3003/example/website/2016/02/22/vendor-verify.html</guid>
         
         
         <category>example</category>
@@ -89,8 +89,8 @@ of the organizations and it members. Randy Watt.&lt;/p&gt;
 strategic planning I soaked up every lesson.&lt;/p&gt;
 </description>
         <pubDate>Mon, 22 Feb 2016 00:27:47 -0700</pubDate>
-        <link>http://localhost:3001/example/website/2016/02/22/akirix.html</link>
-        <guid isPermaLink="true">http://localhost:3001/example/website/2016/02/22/akirix.html</guid>
+        <link>http://localhost:3003/example/website/2016/02/22/akirix.html</link>
+        <guid isPermaLink="true">http://localhost:3003/example/website/2016/02/22/akirix.html</guid>
         
         
         <category>example</category>
@@ -114,8 +114,8 @@ and a few close friends along the way.&lt;/p&gt;
 
 </description>
         <pubDate>Sun, 22 Feb 2015 00:27:47 -0700</pubDate>
-        <link>http://localhost:3001/example/website/2015/02/22/rent-relief.html</link>
-        <guid isPermaLink="true">http://localhost:3001/example/website/2015/02/22/rent-relief.html</guid>
+        <link>http://localhost:3003/example/website/2015/02/22/rent-relief.html</link>
+        <guid isPermaLink="true">http://localhost:3003/example/website/2015/02/22/rent-relief.html</guid>
         
         
         <category>example</category>
